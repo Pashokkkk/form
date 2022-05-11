@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рейстрація</title>
+</head>
+<body>
+    <form>
+    <table>
+        <tr>
+            <tb>
+                <label for="mail">Логін:</label>
+                <input type="email" id="mail" name="user_mail">
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                <P> Уведіть пароль:
+                <INPUT TYPE="password" NAME="p_word">
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                <P> Повторіть пароль:
+                <INPUT TYPE="password" NAME="p_word">
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                Стать<br>
+                <input type='radio' name="gender" value="male" checked> Чоловіча<br>
+                <input type='radio' name='gender' value='female'> Жіноча<br>
+                <input type='radio' name="gender" value="male" checked> Інше<br>
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                Вкажіть місто
+                <select name="city" size=1>
+                    <option value="1"> Київ </option>
+                    <option value="2"> Тернопіль </option>
+                    <option value="3" selected> Рівне </option>
+                    <option value="4"> Суми </option>
+                    <option value="5"> Чернігів </option>
+                    <option value="6"> Віниця </option>
+                    <option value="7"> Львів </option><br>
+                    </select>
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                
+                <fieldset>
+                    <legend>Інтереси:</legend>
+                    <label for="1"><input id="1" type="checkbox"> музика</label>
+                    <label for="2"><input id="2" type="checkbox"> футбол</label>
+                    <label for="3"><input id="3" type="checkbox"> шахи</label>
+                    <label for="4"><input id="4" type="checkbox">  плавання</label>
+                    <label for="5"><input id="5" type="checkbox"> малювання</label>
+                    <label for="6"><input id="6" type="checkbox"> їсти</label>
+                    <label for="7"><input id="7" type="checkbox"> спати</label>
+                  </fieldset>
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                <input type="submit" value="Відправити">
+                <input type="reset" value="Очистити">
+            </tb>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
